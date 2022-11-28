@@ -1,0 +1,16 @@
+### 28/11/22
+
+number = int(input("Enter the numeric grade: ")) 
+if number > 95:
+  letter = 'A+'
+elif number > 85:
+  letter = 'A'
+elif number > 75:
+  letter = 'B+'
+elif number > 65:
+  letter = 'B'
+elif number > 55:
+  letter = 'c'
+else:
+  letter = 'F!!!'
+print("The letter grade is", letter)
